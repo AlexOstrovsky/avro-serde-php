@@ -17,10 +17,7 @@ class AvroSerDeEncoder implements EncoderInterface, DecoderInterface
     public const CONTEXT_ENCODE_SUBJECT = self::FORMAT_AVRO . '.subject';
     public const CONTEXT_DECODE_READERS_SCHEMA = self::FORMAT_AVRO . '.readers_schema';
 
-    /**
-     * @var \FlixTech\AvroSerializer\Objects\RecordSerializer
-     */
-    private $recordSerializer;
+    private RecordSerializer $recordSerializer;
 
     public function __construct(RecordSerializer $recordSerializer)
     {

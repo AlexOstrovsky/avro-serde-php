@@ -27,7 +27,7 @@ integrates FlixTech's [Schema Registry Client](https://github.com/flix-tech/sche
 This library is using the [composer package manager](https://getcomposer.org/) for PHP.
 
 ```bash
-composer require 'flix-tech/avro-serde-php:^1.6'
+composer require 'flix-tech/avro-serde-php:^2.2'
 ```
 
 ## Quickstart
